@@ -1,0 +1,896 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+.con {
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.con a {
+  display: flex;
+  height: 44px;
+  background-color: transparent;
+  justify-content: center;
+  font-family: "inter", sans-serif;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 27px;
+  color: black;
+  text-decoration: none;
+}
+.zurag0 {
+  display: none;
+}
+.zurag2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  background-color: #ffffff;
+  height: 52px;
+  width: 100vw;
+  font-weight: 400;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.hero img {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+}
+.hero {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  aspect-ratio: 10/3.63;
+}
+.hero-butt {
+  display: flex;
+  width: 100%;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.zurag3 img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.zurag3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 10/3.6;
+}
+.butt3 {
+  padding: 12px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+}
+.butt4 {
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+}
+.hero-text1 > h1 {
+  font-size: 52px;
+  color: #f5f5f7;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.hero-text1 > p {
+  font-size: 24px;
+  font-family: "inter", sans-serif;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+}
+.hero-text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  height: 80%;
+}
+
+.zurag4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 8/2.94;
+}
+.zurag4 img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.zurag6 {
+  display: none;
+  position: relative;
+  aspect-ratio: 8/2.94;
+}
+.zurag6 img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.zurag6 > h2 {
+  font-size: 24px;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #0f9dff, #a144f5, #f93582);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.hero-text9 > h1 {
+  font-size: 52px;
+  color: black;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.hero-text9 > p {
+  font-size: 24px;
+  font-family: "inter", sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.hero-text9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 30px;
+  height: 80%;
+}
+.zurag5 * {
+  box-sizing: border-box;
+  width: 99.66%;
+  gap: 5px;
+  justify-self: center;
+}
+
+.zurag5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+.z5 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.z6 {
+  display: flex;
+  width: 49.3%;
+  justify-content: center;
+  aspect-ratio: 5/3;
+  position: relative;
+  flex-wrap: wrap;
+  font-size: 100%;
+}
+.er {
+  z-index: -1;
+  max-height: 98%;
+  position: absolute;
+}
+.z7 > h1 {
+  font-size: 36px;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.z7 > p {
+  font-size: 18px;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.z6 > h2 {
+  font-size: 24px;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #0f9dff, #a144f5, #f93582);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.z7 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  height: 60%;
+  margin-top: 30px;
+}
+.ar {
+  display: none;
+  z-index: -1;
+  max-height: 98%;
+  position: absolute;
+}
+.hero-butt1 {
+  display: flex;
+  width: 100%;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.butt2 {
+  padding: 10px 18px;
+  border-radius: 40px;
+  color: rgb(75, 75, 235);
+  background-color: transparent;
+  border-color: rgb(75, 75, 235);
+  font-size: 16px;
+  width: fit-content;
+}
+.butt1 {
+  padding: 12px 20px;
+  background-color: rgb(75, 75, 235);
+  color: #f5f5f7;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  width: fit-content;
+}
+
+.z8 > h1 {
+  font-size: 36px;
+  color: #f5f5f7;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.z8 > p {
+  font-size: 18px;
+  font-family: "inter", sans-serif;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+}
+.z8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 17px;
+  height: 90%;
+}
+.hero-butt2 {
+  display: flex;
+  width: 100%;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+}
+.hero-butt2 .butt9 {
+  padding: 12px 20px;
+  background-color: rgb(75, 75, 235);
+  color: #f5f5f7;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  width: 176px;
+}
+.z9 > h1 {
+  font-size: 36px;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.z9 > p {
+  font-size: 18px;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.z9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 13px;
+  height: 37%;
+}
+.op {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: 100%;
+  align-self: center;
+  gap: 15px;
+  justify-content: center;
+}
+.sda {
+  width: 26.35px;
+  height: 32px;
+}
+.op > h1 {
+  width: fit-content;
+}
+.wer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  gap: 10px;
+  height: 703px;
+}
+.z9 > h2 {
+  font-size: 18px;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.qw {
+  display: none;
+}
+
+.zx {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  display: flex;
+  position: absolute;
+  width: 417px;
+  height: 236px;
+  z-index: -1;
+}
+.fgh {
+  display: flex;
+  width: 100%;
+  height: 236px;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.Background-div {
+  width: 417px;
+  height: 236px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.backgroundimg {
+  width: 196px;
+  height: 196px;
+}
+.backdiv {
+  width: 417px;
+  position: relative;
+}
+.wer img {
+  height: 701px;
+  width: 1250px;
+}
+.wer-item {
+  display: flex;
+  flex-shrink: 0;
+  width: 1300px;
+  position: relative;
+  height: 100%;
+  align-items: end;
+  justify-content: center;
+}
+.wer-item img {
+  position: absolute;
+  width: 1300px;
+  z-index: -1;
+}
+.wer-item div {
+  width: 93%;
+  height: 24%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.wer-item div > p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 20px;
+}
+.span {
+  font-weight: 700;
+  box-shadow: 0px 0px 5px 0px #00000099;
+}
+.play {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.fgh1 {
+  display: flex;
+  width: max-content;
+  gap: 10px;
+  animation: scrollLeft 40s linear infinite;
+}
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.fgh-div {
+  width: 25%;
+  height: max-content;
+}
+.fgh-ug {
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+}
+.applepre {
+  width: 59px;
+  height: 14px;
+  margin-top: 170px;
+  margin-right: 20px;
+}
+.bdiv {
+  margin: 180px 10px;
+}
+.Menu {
+  display: none;
+}
+.wer button {
+  border-radius: 40px;
+  padding: 12px 20px;
+  width: 140px;
+  font-size: 17px;
+  height: 44px;
+  border: none;
+}
+.applepre {
+  width: 59px;
+  height: 14px;
+  margin-top: 170px;
+  margin-right: 20px;
+}
+.text1 {
+  margin-top: 60px;
+}
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .Menu {
+    display: block;
+  }
+  .hero img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero {
+    aspect-ratio: 6/5.1;
+    overflow: hidden;
+    position: relative;
+  }
+  .zurag3 img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .zurag3 {
+    aspect-ratio: 8/6.78;
+    overflow: hidden;
+    position: relative;
+  }
+  .con a {
+    display: none;
+  }
+  .con {
+    align-items: center;
+    justify-self: center;
+    justify-content: space-between;
+  }
+  .zurag4 {
+    display: none;
+  }
+  .q1 {
+    display: none;
+  }
+  .ra {
+    display: none;
+  }
+  .qw {
+    display: flex;
+  }
+  .ar {
+    display: flex;
+    object-fit: cover;
+    height: 100%;
+  }
+  .zurag6 {
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1.18;
+  }
+  .zurag6 img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .wer img {
+    height: 368px;
+    width: 689px;
+  }
+  .wer-item {
+    width: 689px;
+    height: 100%;
+  }
+  .wer-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .wer-item div {
+    width: 93%;
+    height: 24%;
+  }
+
+  .wer-item div > p {
+    font-size: 14px;
+  }
+  .wer {
+    height: 368px;
+  }
+  .wer button {
+    padding: 8px 15px;
+    width: 108px;
+    font-size: 13px;
+    height: 36px;
+  }
+  .fgh {
+    aspect-ratio: 7/2.4;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .fgh1 {
+    width: 3608px;
+    gap: 16px;
+    height: 194px;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+  .play {
+    display: block;
+  }
+  .backdiv {
+    flex-shrink: 0;
+    width: 300px;
+  }
+  .back {
+    width: 300px;
+    height: 190px;
+  }
+  .Background-div {
+    flex-shrink: 0;
+    width: 300px;
+    height: 190px;
+  }
+  .backgroundimg {
+    width: 150px;
+    height: 150px;
+  }
+  .bdiv {
+    margin: 150px 10px;
+    font-size: 12px;
+  }
+
+  .zurag5 {
+    justify-content: center;
+    aspect-ratio: 10/19.4;
+  }
+  .er {
+    object-fit: cover;
+    height: 100%;
+  }
+  .z7 > h1 {
+    font-size: 30px;
+  }
+  .z7 > p {
+    font-size: 14px;
+  }
+
+  .z7 {
+    text-align: center;
+  }
+  .hero-butt1 {
+    display: flex;
+    width: 100%;
+    height: 36px;
+    gap: 15px;
+  }
+  .hero-butt1 button:first-child {
+    padding: 10px 17px;
+    font-size: 14px;
+  }
+  .hero-butt1 button:last-child {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  .z8 > h1 {
+    font-size: 30px;
+  }
+  .z8 > p {
+    font-size: 14px;
+  }
+  .z8 {
+    text-align: center;
+  }
+  .hero-butt2 {
+    height: 36px;
+  }
+  .hero-butt2 .butt9 {
+    padding: 10px 17px;
+    font-size: 14px;
+    width: 176px;
+  }
+  .z9 > h1 {
+    font-size: 30px;
+  }
+  .z9 > p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .z9 {
+    width: 90%;
+  }
+  .op {
+    align-items: center;
+  }
+  .sda {
+    width: 22px;
+    height: 27px;
+  }
+  .op > h1 {
+    width: fit-content;
+    font-size: 26px;
+    align-self: end;
+    height: 93%;
+  }
+
+  .z9 > h2 {
+    font-size: 14px;
+  }
+  .hero-text9 > h1 {
+    font-size: 42px;
+  }
+  .hero-text9 > p {
+    font-size: 22px;
+  }
+  .hero-text1 > h1 {
+    font-size: 42px;
+  }
+  .hero-text1 > p {
+    font-size: 22px;
+  }
+  .hero-butt {
+    gap: 15px;
+  }
+  .butt3 {
+    padding: 10px 17px;
+  }
+  .butt4 {
+    padding: 10px 17px;
+  }
+  .z6 > h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    aspect-ratio: 0.8;
+  }
+
+  .zurag3 {
+    aspect-ratio: 0.8;
+  }
+  .zurag6 {
+    aspect-ratio: 0.8;
+  }
+  .wer-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .wer-item div {
+    width: 93%;
+    height: 24%;
+  }
+
+  .wer-item div > p {
+    font-size: 14px;
+  }
+  .wer {
+    height: 368px;
+  }
+  .wer button {
+    padding: 6px 12px;
+    width: 98px;
+    font-size: 12px;
+    height: 28px;
+  }
+  .fgh {
+    aspect-ratio: 1;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 216px;
+  }
+  .fgh1 {
+    width: 3608px;
+    gap: 16px;
+    height: 160px;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+  .backdiv {
+    flex-shrink: 0;
+    width: 255px;
+  }
+  .back {
+    width: 255px;
+    height: 160px;
+  }
+  .Background-div {
+    flex-shrink: 0;
+    width: 255px;
+    height: 160px;
+  }
+  .backgroundimg {
+    width: 120px;
+    height: 120px;
+  }
+  .bdiv {
+    margin: 120px 5px;
+    font-size: 10px;
+  }
+  .applepre {
+    margin-top: 100px;
+  }
+  .zurag5 {
+    justify-content: center;
+    aspect-ratio: 10/19.4;
+  }
+  .z6 {
+    width: 100%;
+    aspect-ratio: 0.8;
+  }
+  .er {
+    object-fit: cover;
+    height: 100%;
+  }
+  .z7 > h1 {
+    font-size: 30px;
+  }
+  .z7 > p {
+    font-size: 14px;
+  }
+
+  .z7 {
+    text-align: center;
+  }
+  .hero-butt1 {
+    display: flex;
+    width: 100%;
+    height: 24px;
+    gap: 5px;
+  }
+  .hero-butt1 button:first-child {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  .hero-butt1 button:last-child {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  .z8 > h1 {
+    font-size: 30px;
+  }
+  .z8 > p {
+    font-size: 14px;
+  }
+  .z8 {
+    text-align: center;
+  }
+  .hero-butt2 {
+    height: 36px;
+  }
+  .hero-butt2 .butt9 {
+    padding: 10px 17px;
+    font-size: 14px;
+    width: 176px;
+  }
+  .z9 > h1 {
+    font-size: 30px;
+  }
+  .z9 > p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .z9 {
+    width: 90%;
+  }
+  .op {
+    align-items: center;
+  }
+  .sda {
+    width: 22px;
+    height: 27px;
+  }
+  .op > h1 {
+    width: fit-content;
+    font-size: 26px;
+    align-self: end;
+    height: 93%;
+  }
+
+  .z9 > h2 {
+    font-size: 14px;
+  }
+  .hero-text9 {
+    gap: 10px;
+  }
+  .hero-text9 > h1 {
+    font-size: 30px;
+  }
+  .hero-text9 > p {
+    font-size: 18px;
+  }
+  .hero-text1 > h1 {
+    font-size: 30px;
+  }
+  .hero-text1 > p {
+    font-size: 18px;
+  }
+  .hero-butt {
+    gap: 10px;
+  }
+  .butt3 {
+    padding: 8px 15px;
+  }
+  .butt4 {
+    padding: 8px 15px;
+  }
+  .z6 > h2 {
+    font-size: 18px;
+  }
+  .zurag2 {
+    font-size: 12px;
+  }
+  .zurag0 {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+  }
+  .text1 {
+    margin: 0;
+    justify-content: end;
+    height: 90%;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
